@@ -14,7 +14,7 @@ class OpenAIModel(BaseModel):
 
     def __init__(
         self,
-        model_name: str = "gpt-4",
+        model_name: str = "gpt-5",
         api_key: Optional[str] = None,
         **kwargs
     ):
