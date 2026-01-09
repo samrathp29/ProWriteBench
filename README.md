@@ -45,7 +45,7 @@ Extract unstated professional norms from context.
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/prowritebench.git
+git clone https://github.com/yourusername/ProWriteBench.git
 cd prowritebench
 pip install -e .
 ```
