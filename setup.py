@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="prowritebench",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Samrath Singh Patpatia",
+    author_email="sspatpat@uwaterloo.ca",
     description="A frontier evaluation benchmark for LLM professional writing capabilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/prowritebench",
+    url="https://github.com/samrathp29/ProWriteBench",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
