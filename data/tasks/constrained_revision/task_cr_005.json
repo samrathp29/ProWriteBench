@@ -1,0 +1,52 @@
+{
+  "task_id": "CR-005",
+  "category": "constrained_revision",
+  "difficulty": "medium",
+  "scenario": {
+    "context": "You're a technical writer at CloudAPI Inc. Your team is documenting a new REST API endpoint for external developers. The API allows users to upload files with authentication.",
+    "request": "Write documentation for the POST /api/v1/files endpoint that uploads a file."
+  },
+  "constraints": {
+    "word_count": {
+      "min": 200,
+      "max": 350
+    },
+    "required_elements": [
+      "Endpoint URL",
+      "HTTP method",
+      "Authentication method",
+      "Request parameters",
+      "Response format",
+      "Example"
+    ],
+    "forbidden_elements": [],
+    "tone": "Technical but accessible for full-stack developers"
+  },
+  "evaluation": {
+    "constraint_checks": [
+      "Word count within range",
+      "All required technical elements present"
+    ],
+    "stakeholder_rubric": {},
+    "judge_criteria": [
+      "Clear structure and formatting",
+      "Appropriate technical detail",
+      "Includes practical examples",
+      "Accessible to target audience"
+    ],
+    "critical_failures": [
+      "Missing critical technical information",
+      "Confusing or ambiguous instructions"
+    ]
+  },
+  "revision_chain": [
+    {
+      "round_number": 1,
+      "feedback": "This is too technical. Our developers are full-stack engineers, not backend specialists. They understand HTTP and APIs but aren't familiar with advanced authentication flows. Simplify the authentication explanation."
+    },
+    {
+      "round_number": 2,
+      "feedback": "Now you've removed too much detail. We still need the complete technical specification - developers need to know the exact header format, possible error codes, and file size limits. The writing should be accessible AND technically complete. Don't dumb it down, just explain clearly."
+    }
+  ]
+}

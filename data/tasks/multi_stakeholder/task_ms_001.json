@@ -1,0 +1,99 @@
+{
+  "task_id": "MS-001",
+  "category": "multi_stakeholder",
+  "difficulty": "hard",
+  "scenario": {
+    "context": "You are the VP of Engineering at TechStart, a Series B startup with 85 employees. The board has decided to reduce headcount by 15% (approximately 13 people) due to slower-than-expected revenue growth and the need to extend runway. The decision was made yesterday and will be announced in an all-hands meeting this afternoon. You need to send an email to all engineering staff (35 people) immediately after the meeting.",
+    "request": "Write an all-hands email to the engineering team announcing the layoffs.",
+    "stakeholders": [
+      {
+        "name": "Affected Employees",
+        "needs": [
+          "Transparency about why this happened",
+          "Respect and dignity",
+          "Clear information about severance and support",
+          "Timeline for when they'll know if they're affected"
+        ],
+        "concerns": [
+          "Job security",
+          "Financial stability",
+          "Career impact",
+          "Feeling blindsided"
+        ]
+      },
+      {
+        "name": "Remaining Employees",
+        "needs": [
+          "Reassurance about their own job security",
+          "Clarity on company direction",
+          "Understanding of what changes operationally",
+          "Confidence in leadership"
+        ],
+        "concerns": [
+          "Will there be more layoffs?",
+          "Increased workload",
+          "Company stability",
+          "Team morale"
+        ]
+      },
+      {
+        "name": "Executive Team",
+        "needs": [
+          "Maintain team confidence",
+          "Show strong leadership",
+          "Protect company reputation",
+          "Clear communication of business rationale"
+        ],
+        "concerns": [
+          "Talent retention",
+          "Investor perception",
+          "Productivity impact",
+          "Legal compliance"
+        ]
+      }
+    ]
+  },
+  "constraints": {
+    "word_count": {
+      "min": 250,
+      "max": 400
+    },
+    "required_elements": [
+      "Reason for decision",
+      "Timeline",
+      "Support offered",
+      "Future outlook"
+    ],
+    "forbidden_elements": [
+      "Names of affected individuals",
+      "Specific dollar amounts",
+      "Blame toward any individual or team"
+    ],
+    "tone": "Empathetic but professional, transparent but forward-looking"
+  },
+  "evaluation": {
+    "constraint_checks": [
+      "Word count within range",
+      "All required elements present",
+      "No forbidden elements"
+    ],
+    "stakeholder_rubric": {
+      "affected_employees": "Does the email treat affected employees with dignity and provide clear support information?",
+      "remaining_employees": "Does it address job security concerns without making promises it can't keep?",
+      "executives": "Does it demonstrate strong leadership while being transparent?"
+    },
+    "judge_criteria": [
+      "Appropriate empathetic tone for difficult situation",
+      "Avoids corporate jargon or minimizing language",
+      "Balances honesty with hope",
+      "Professional email structure"
+    ],
+    "critical_failures": [
+      "Overly casual or flippant tone",
+      "Missing support resources for affected employees",
+      "Blame-shifting language",
+      "Vague or evasive about the reality of situation"
+    ]
+  },
+  "revision_chain": null
+}

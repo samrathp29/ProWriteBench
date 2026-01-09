@@ -1,0 +1,47 @@
+{
+  "task_id": "IR-008",
+  "category": "implicit_requirements",
+  "difficulty": "medium",
+  "scenario": {
+    "context": "You are the Head of Business Development at DataFlow, a B2B SaaS company. TechVentures Inc. sent you a partnership proposal last week suggesting a co-marketing arrangement where they would integrate your product into their platform and promote it to their customers. However, after internal discussions, your team has decided the partnership doesn't align with your current strategic priorities. TechVentures is a well-connected company in your industry, and you've met their BD director at several conferences.",
+    "request": "Write an email declining the partnership proposal from TechVentures Inc."
+  },
+  "constraints": {
+    "word_count": {
+      "min": 150,
+      "max": 250
+    },
+    "required_elements": [
+      "Clear decline",
+      "Appreciation for proposal"
+    ],
+    "forbidden_elements": [
+      "False promises",
+      "Vague maybes"
+    ],
+    "tone": "Professional and diplomatic"
+  },
+  "evaluation": {
+    "constraint_checks": [
+      "Word count within range",
+      "Contains clear decline",
+      "Expresses appreciation"
+    ],
+    "stakeholder_rubric": {},
+    "judge_criteria": [
+      "Diplomatic language that doesn't burn bridges",
+      "Provides business rationale without being subjective or hurtful",
+      "Leaves door open for potential future opportunities",
+      "Brief and respectful (busy executives)",
+      "Acknowledges strengths of proposal before declining"
+    ],
+    "critical_failures": [
+      "Rude or dismissive tone",
+      "No rationale provided",
+      "Gives false hope about future",
+      "Overly negative about their proposal",
+      "Too lengthy or verbose"
+    ]
+  },
+  "revision_chain": null
+}
