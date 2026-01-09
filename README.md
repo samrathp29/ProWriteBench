@@ -152,14 +152,6 @@ Following EQ-Bench Creative Writing v3 principles:
 - Use multiple judge models and ensemble
 - Include human calibration samples
 
-## Roadmap
-
-- [ ] Complete all 30 task definitions
-- [ ] Add visualization dashboard for results
-- [ ] Public leaderboard
-- [ ] Human evaluation baseline
-- [ ] Multilingual support
-
 ## Citation
 
 If you use ProWriteBench in your research, please cite:
