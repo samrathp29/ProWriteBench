@@ -161,7 +161,7 @@ If you use ProWriteBench in your research, please cite:
   title={ProWriteBench: A Frontier Evaluation Benchmark for LLM Professional Writing},
   author={Samrath Singh Patpatia},
   year={2026},
-  url={https://github.com/samrathp29/prowritebench}
+  url={https://github.com/samrathp29/ProWriteBench}
 }
 ```
 
